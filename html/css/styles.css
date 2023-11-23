@@ -1,0 +1,23 @@
+
+body{
+    background-color: rgb(255, 255, 143);
+    font-family: 'Helvetica', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#abtMeTitle {
+    color: blue;
+}
+.educTitle{
+    color: red;
+}
+
+
+#college-school, #hs-school{
+    color: orange !important;
+}
+
+#hs-school{
+    color: orange;
+}

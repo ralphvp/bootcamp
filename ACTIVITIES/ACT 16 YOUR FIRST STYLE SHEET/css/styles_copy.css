@@ -1,0 +1,105 @@
+body{
+    font-family: Comic Sans MS; margin: 0px;
+    margin: 0px;
+    background-image: url("img/bg-img.jpg");
+    background-repeat: no-repeat /*repeat-x, repeat-y, round*/;
+    background-position: center /*left, right, */;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#nav-bar table{
+    background-color: rgb(70, 130, 180);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px 50px 10px 50px;
+}
+
+#choir-section{
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+}
+
+#choir-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*fits image in a section/div*/
+    clip-path: circle(50%); /*makes the image round*/
+}
+#choir-image:hover{
+    clip-path: circle(0%);
+}
+
+#container-logo{
+    text-align: center; margin-top: 10px 
+}
+
+#container-logo img{
+    width: 450px
+}
+
+#ministries-container{
+    text-align: center
+}
+
+#ministries-container h1{
+    color: rgb(70, 130, 180)
+}
+
+#huell-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#huell-img{
+    width: 350px; 
+    margin-right: 20px;
+}
+
+#huell-header{
+    font-size: 200%; 
+    color: rgb(70, 130, 180)
+}
+
+#huel-p1{
+    font-size: 130%;
+}
+
+#huel-p2{
+    font-size: 200%;
+}
+
+#huel-p2 b a {
+    color: rgb(255, 0, 216);
+}
+
+#container-cross{
+    display: flex; 
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#container-cross .img-cross{
+    width: 120px;
+}
+
+#container-cross h3{
+    margin-bottom: 0px;
+}
+
+#container-cross ul{
+    margin-top: 0px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 75%;
+    color: rgb(160, 160, 160);
+}

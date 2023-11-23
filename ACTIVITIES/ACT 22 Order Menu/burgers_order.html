@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+      .wrap {
+        margin-top: 50px;
+      }
+      #table-heading {
+        background-color: rgb(255, 200, 99);
+      }
+      .table-row-bg {
+        background-color: rgb(255, 229, 182);
+      }
+      /* #table-menu tr,
+      th,
+      td {
+      } */
+      #table-menu tr td img {
+        width: 35px;
+        height: 30px;
+      }
+      #text-tax {
+        background-color: rgb(250, 238, 216);
+      }
+
+      /* tell us sect */
+      .tell-us {
+        background-color: #000000;
+      }
+    </style>
+
+    <title>Bear Burger's - Order</title>
+  </head>
+  <body>
+    <div class="container wrap">
+      <div class="row">
+        <div class="col-lg-8 table-responsive">
+          <h1 class="display-1">Order Here!</h1>
+          <!-- TABLE -->
+          <table class="table text-center" id="table-menu">
+            <tr class="" id="table-heading">
+              <th>Icons</th>
+              <th>Item Name</th>
+              <th>Price</th>
+            </tr>
+            <tr></tr>
+            <tr class="table-row-bg">
+              <th colspan="3" class="text-center">Meals</th>
+            </tr>
+            <tr class="table-success">
+              <td>
+                <img
+                  src="img/italiano-burger.jpeg"
+                  alt="Italiano Burger"
+                  class="img-fluid"
+                />
+              </td>
+              <td class="">Italiano Burger</td>
+              <td>₱55.00</td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  src="img/Italiano-Fried-Chicken.jpg"
+                  alt="Italiano Fried Chicken"
+                  class="img-fluid"
+                />
+              </td>
+              <td class="">Italiano Fried Chicken</td>
+              <td>₱55.00</td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  src="img/Italiano-Spaghetti.jpg"
+                  alt="Italiano Spaghetti"
+                  class="img-fluid"
+                />
+              </td>
+              <td class="">Italiano Spaghetti</td>
+              <td>₱55.00</td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  src="img/Italiano-pizza.webp"
+                  alt="Italiano Pizza"
+                  class="img-fluid"
+                />
+              </td>
+              <td class="">Italiano Pizza</td>
+              <td>₱55.00</td>
+            </tr>
+
+            <tr>
+              <th colspan="3" class="text-center table-row-bg">Drinks</th>
+            </tr>
+            <tr>
+              <td colspan="2" class="text-center">Coke</td>
+              <td>₱20.00</td>
+            </tr>
+            <tr>
+              <td rowspan="3" colspan="2" id="text-tax">
+                All items are subjected to tax. No refunds, All items are not
+                transferrable.
+              </td>
+              <td>Extra Rice - ₱20.00</td>
+            </tr>
+            <tr>
+              <td>Condiments - ₱20.00</td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- right panel -->
+        <div class="col-lg-4">
+          <img
+            src="https://www.dellacasapasta.com/images/basil-sauce.png"
+            alt="Pasta on a fork"
+            class="img-fluid d-none d-sm-block"
+          />
+        </div>
+      </div>
+      <!-- end of menu section -->
+
+      <!-- Tell us what you think section -->
+      <div class="row tell-us">
+        <h1 class="display-1 text-light">Tell Us What You Think!</h1>
+        <div class="row">
+          <!-- left panel -->
+          <div class="col-lg-6">
+            <img
+              src="https://thumbs.dreamstime.com/b/cucumber-burger-ingredients-floating-black-background-isolated-vertical-cucumber-burger-ingredients-floating-bun-cheese-tomato-177814997.jpg"
+              alt="burger levels"
+              class="img-fluid"
+            />
+          </div>
+          <!-- right panel -->
+          <div class="col-lg-6">
+            <form action="">
+              <div class="row mt-3 mb-3">
+                <div class="form-floating">
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    class="form-control"
+                    placeholder="Name"
+                  />
+                  <label for="name" class="ms-2" style="color: gray"
+                    >Name</label
+                  >
+                </div>
+              </div>
+
+              <!-- did we do well? -->
+              <div class="row mt-3 mb-3 text-light">
+                <label for="did-well" class="text-light"
+                  >What did we do well?</label
+                >
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="did-well"
+                    id="v1"
+                  />
+                  <label for="v1">The service</label>
+                </div>
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="did-well"
+                    id="v2"
+                  />
+                  <label for="v2">The food</label>
+                </div>
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="did-well"
+                    id="v3"
+                  />
+                  <label for="v3">The atmosphere</label>
+                </div>
+              </div>
+
+              <!--  -->
+              <div class="row mt-3 mb-3">
+                <label for="did-well" class="text-light"
+                  >How many times have you went to our restaurant?</label
+                >
+                <div class="form-check">
+                  <input
+                    type="radio"
+                    class="form-check-input"
+                    name="did-well"
+                    id="star1"
+                  />
+                  <label for="star1">⭐</label>
+                </div>
+                <div class="form-check">
+                  <input
+                    type="radio"
+                    class="form-check-input"
+                    name="did-well"
+                    id="star2"
+                  />
+                  <label for="star2">⭐⭐</label>
+                </div>
+                <div class="form-check">
+                  <input
+                    type="radio"
+                    class="form-check-input"
+                    name="did-well"
+                    id="star3"
+                  />
+                  <label for="star3">⭐⭐⭐</label>
+                </div>
+                <div class="form-check">
+                  <input
+                    type="radio"
+                    class="form-check-input"
+                    name="did-well"
+                    id="star4"
+                  />
+                  <label for="star4">⭐⭐⭐⭐</label>
+                </div>
+                <div class="form-check">
+                  <input
+                    type="radio"
+                    class="form-check-input"
+                    name="did-well"
+                    id="star5"
+                  />
+                  <label for="star5">⭐⭐⭐⭐⭐</label>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

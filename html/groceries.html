@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+    <body>
+        <!--List-->
+        <h1>Grocery List</h1>
+        <ul>
+            <li>Sardines</li>
+            <li>Pancit Canton</li>
+            <li>Kinder Joy</li>
+        </ul>
+        <ol>
+            <li>To buy meat, go to butcher's section.</li>
+            <li>Pick out good meat pieces.</li>
+            <li>Talk to butcher to get receipt.</li>
+        </ol>
+
+
+        <!--Table-->
+        <h1>Grocery Store</h1>
+        <table>
+            <tr >
+                <th >Name</th>
+                <th>Image</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Sardines</td>
+                <td><img src="img/ligoSardines.jpg" alt="Can of ligo Sardines" width="100px"></td>
+                <td>A can of ligo sardines, 50 grams</td>
+                <td>25 PHP</td>
+            </tr>
+            <tr>
+                <td>Extra Spicy Pancit Canton</td>
+                <td><img src="img/pancitExtraSpicy.jpg" alt="pack of extra spicy pancit canton" width="100"></td>
+                <td>1 pack of Extra Spicy pancit canton, 40 grams</td>
+                <td>15 PHP</td>
+            </tr>
+            <tr>
+                <td>Kinder Joy</td>
+                <td><img src="img/kinderJoy.jpg" alt="Kinder Joy" width="100px"></td>
+                <td>A piece of Kinder Joy, 20 grams</td>
+                <td>11PHP</td>
+            </tr>
+        </table>
+
+
+        <!--Using "ROWS SPAN" and "COLS SPAN"-->
+        <h1>Milk Tea</h1>
+        <table>
+            <tr>
+                <td colspan="3"><center><img src="img/milktea.png" width="100px" alt="Milktea Image"></center></td>
+            </tr>
+            <tr>
+                <th>Small</th>
+                <th>Medium</th>
+                <th>Large</th>
+            </tr>
+            <tr>
+                <td>50</td>
+                <td>60</td>
+                <td>70</td>
+            </tr>
+        </table>
+
+        <br \>
+        <table>
+            <tr>
+                <td rowspan="3"><img src="img/milktea.png" width="100px" alt="large cup of milktea"></td>
+                <th>Small</th>
+                <td>50 PHP</td>
+            </tr>
+            <tr>
+                <th>Medium</th>
+                <td>60 PHP</td>
+            </tr>
+            <tr>
+                <th>Large</th>
+                <td>70 PHP</td>
+            </tr>
+        </table>    
+    </body>
+</html>

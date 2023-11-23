@@ -1,0 +1,28 @@
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : DESKTOP-HFERNH8
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Realtek PCIe GbE Family Controller
+   Physical Address. . . . . . . . . : 74-56-3C-5B-83-C2
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::4f00:972b:b4c5:a8df%12(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.68.106(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Thursday, 9 November 2023 8:41:23 am
+   Lease Expires . . . . . . . . . . : Thursday, 9 November 2023 2:41:25 pm
+   Default Gateway . . . . . . . . . : fe80::b2a7:b9ff:fe1f:ad34%12
+                                       192.168.68.1
+   DHCP Server . . . . . . . . . . . : 192.168.68.1
+   DHCPv6 IAID . . . . . . . . . . . : 208950844
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-25-9D-2F-C7-74-56-3C-5B-83-C2
+   DNS Servers . . . . . . . . . . . : 9.9.9.9
+   NetBIOS over Tcpip. . . . . . . . : Enabled

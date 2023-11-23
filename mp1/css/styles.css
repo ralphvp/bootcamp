@@ -1,0 +1,72 @@
+/* body {
+  background-color: #000122;
+} */
+* {
+  font-family: Helvetica, sans-serif;
+}
+.wrapper1 {
+  height: 100vh;
+  /* border: solid 0px rgb(255, 255, 255); */
+  border-radius: 10px;
+  background: #fff;
+  /* box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2); */
+}
+
+.left-wrapper {
+  /* background-image: url("img/mouse-kb-bg.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px 0 0 15px;
+  height: 50vh;
+}
+
+#img-logo {
+  width: 40%;
+}
+
+/* text box color when selected */
+#username:focus {
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+  border: solid 2px #560bc5;
+}
+
+#password:focus {
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+  border: solid 2px #560bc5;
+}
+/*  */
+
+/* login form */
+#btn-login {
+  background-color: #8c40ff;
+  border: solid 1px #7418ff;
+}
+
+#btn-login:hover {
+  background-color: #560bc5;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #8c40ff;
+}
+
+a {
+  text-decoration: none;
+}
+
+#forgotPw a {
+  color: #8c40ff;
+}
+
+#sign-up a {
+  color: #560bc5;
+  padding: 2px;
+  font-weight: bold;
+}
+/*  */
+
+.card-body {
+  min-height: 300px;
+  min-width: 300px;
+  margin-right: 5px;
+}

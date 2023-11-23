@@ -1,0 +1,58 @@
+cd "noli me tangere"
+
+type nul > empty.txt
+
+
+
+cd ../filipino
+
+rd "noli me tangere"
+
+
+
+cd ../science/physics
+del pendulum.exe
+
+
+
+cd ../physics
+md gravity
+
+
+
+
+
+
+
+
+
+
+cd math
+md trigonometry
+
+
+
+
+cd ../mapeh
+md health
+
+
+
+cd filipino/el_fili/simoun
+
+copy portrait.jpg portrait_2.jpg
+
+cd ../../../mapeh/music
+
+copy instruments.png intruments_2.png
+
+
+
+cd ../mapeh
+move perf_task2.mp4 pe
+
+
+
+
+cd ../../science/physics
+del pendulum.exe

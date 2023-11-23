@@ -1,0 +1,143 @@
+Score for this quiz: 28 out of 30
+Submitted Nov 14 at 1:43pm
+This attempt took 23 minutes.
+ 
+Question 1
+3 / 5 pts
+Create a heading The Importance of Italian Cuisine.
+Below the heading, contains the following paragraph
+Italian cuisine (Italian: Cucina italiana) is a Mediterranean cuisine consisting of the ingredients, recipes and cooking techniques developed across the Italian Peninsula since antiquity, and later spread around the world together with waves of Italian diaspora. Significant changes occurred with the colonization of the Americas and the introduction of potatoes, tomatoes, capsicums, maize and sugar beet — the latter introduced in quantity in the 18th century. It is one of the best-known and most appreciated gastronomies worldwide.
+Create a subheading Spaghetti.
+Below the subheading, contains the following paragraph. 
+Spaghetti is a long, thin, solid, cylindrical pasta. It is a staple food of traditional Italian cuisine. Like other pasta, spaghetti is made of milled wheat and water and sometimes enriched with vitamins and minerals. Italian spaghetti is typically made from durum wheat semolina. Usually the pasta is white because refined flour is used, but whole wheat flour may be added. Spaghettoni is a thicker form of spaghetti, while capellini is a very thin spaghetti.
+Link the first instance of the word "pasta" to the following.
+https://en.wikipedia.org/wiki/Pasta
+Your Answer:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>The Importance of Italian Cuisine</h1>
+    <p>Italian cuisine (Italian: Cucina italiana) is a Mediterranean cuisine consisting of the ingredients, recipes and cooking techniques developed across the Italian Peninsula since antiquity, and later spread around the world together with waves of Italian diaspora. Significant changes occurred with the colonization of the Americas and the introduction of potatoes, tomatoes, capsicums, maize and sugar beet — the latter introduced in quantity in the 18th century. It is one of the best-known and most appreciated gastronomies worldwide.</p>
+
+    <h2>Spaghetti</h2>
+    <p>Spaghetti is a long, thin, solid, cylindrical pasta. It is a staple food of traditional Italian cuisine. Like other pasta, spaghetti is made of milled wheat and water and sometimes enriched with vitamins and minerals. Italian spaghetti is typically made from durum wheat semolina. Usually the pasta is white because refined flour is used, but whole wheat flour may be added. Spaghettoni is a thicker form of spaghetti, while capellini is a very thin spaghetti.</p>
+    <a href="https://en.wikipedia.org/wiki/Pasta" target="_blank">pasta</a>
+</body>
+</html>
+ 
+Question 2
+10 / 10 pts
+Create a heading Poker Hand Rankings
+Under the heading, create a numbered list of pictures. File names (in order) are:
+royalflush.png
+straightflush.png
+fourofakind.png
+fullhouse.png
+Set all of the picture's widths to 200 pixels. Supply an alt message to all of them.
+Link each picture respectively to the following links. The link should open a new tab when selected.
+https://en.wiktionary.org/wiki/royal_flush
+https://en.wiktionary.org/wiki/straight_flush
+https://en.wiktionary.org/wiki/four_of_a_kind
+https://en.wiktionary.org/wiki/full_house
+Your Answer:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Poker Hand Rankings</h1>
+    <ol>
+        <li><a href="https://en.wiktionary.org/wiki/royal_flush" target="_blank"><img src="img/royalflush.png" alt="Set of royal flush cards in hand" width="200px" ></a></li>
+
+        <li><a href="https://en.wiktionary.org/wiki/straight_flush" target="_blank"><img src="img/straightflush.png" alt="Set of straight flush cards in hand" width="200px"></a></li>
+
+        <li><a href="https://en.wiktionary.org/wiki/four_of_a_kind" target="_blank"><img src="img/fourofakind.png" alt="Set of four of a kind cards in hand" width="200px"><a></li>
+
+        <li><a href="https://en.wiktionary.org/wiki/full_house" target="_blank"><img src="img/fullhouse.png" alt="Set of full house cards in hand" width="200px"><a></li>
+
+    </ol>
+</body>
+</html>
+ 
+Question 3
+15 / 15 pts
+Create a heading Snakes.
+Under the heading, add the following paragraph.
+Snakes are some of the most feared animals, up there with spiders and centipedes for many. Some people even suffer from ophidiophobia, an intense fear of snakes. This fear is not unfounded. Our bodies have evolved to fear animals that could potentially harm us, and some snakes certainly can be deadly.
+Under the paragraph, create a three column table with the following content (ignoring bullets).
+Headings:
+Name
+Description
+At a glance
+First column (first row to last row):
+Rattlesnakes
+Mambas
+Cobras
+Second column (first row to last row):
+Rattlesnakes are known for their diamond-shaped heads and sand-like, triangle-patterned skin.
+In the trees of sub-Saharan Africa in the forests and savannas live the graceful mambas.
+Cobras are large, venomous snakes found in India, southeast and southern Asia, and Africa.
+Third column (these are pictures; make the pictures 100 pixels wide and supply an alt message for each; assume that they in the same folder as the .html file)
+rattlesnake.png
+mamba.png
+cobra.png
+Give the table a single line border.
+Link the snake names to the following, respectively. Make sure that the link open a new tab when clicked.
+https://en.wiktionary.org/wiki/rattlesnake
+https://en.wiktionary.org/wiki/mamba
+https://en.wiktionary.org/wiki/cobra
+Your Answer:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table,tr,th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+
+        }
+    </style>
+
+</head>
+    <body>
+        <h1>Snakes</h1>
+        <p>Snakes are some of the most feared animals, up there with spiders and centipedes for many. Some people even suffer from ophidiophobia, an intense fear of snakes. This fear is not unfounded. Our bodies have evolved to fear animals that could potentially harm us, and some snakes certainly can be deadly.</p>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>At a glance</th>
+            </tr>
+            <tr>
+                <td><a href="https://en.wiktionary.org/wiki/rattlesnake" target="_blank">Rattlesnakes</a></td>
+                <td>Rattlesnakes are known for their diamond-shaped heads and sand-like, triangle-patterned skin.</td>
+                <td><img src="rattlesnake.png" alt="A picture of rattlesnake" width="100px"></td>
+            </tr>
+            <tr>
+                <td><a href="https://en.wiktionary.org/wiki/mamba" target="_blank">Mambas</a></td>
+                <td>In the trees of sub-Saharan Africa in the forests and savannas live the graceful mambas.</td>
+                <td><img src="mamba.png" alt="A picture of mamba reptile" width="100px"></td>
+            </tr>
+            <tr>
+                <td><a href="https://en.wiktionary.org/wiki/cobra" target="_blank">Cobras</a></td>
+                <td>Cobras are large, venomous snakes found in India, southeast and southern Asia, and Africa.</td>
+                <td><img src="cobra.png" alt="A picture of a cobra" width="100px"></td>
+            </tr>
+        </table>
+       
+    </body>
+</html>

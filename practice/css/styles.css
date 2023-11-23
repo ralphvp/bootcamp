@@ -1,0 +1,43 @@
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+.wrapper{
+    background-color: #ececec;
+    padding: 0 20px 0 20px;
+    
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    border: solid 1px black;
+    
+}
+
+.wrapper-logo-login{
+    border: solid 1px black;
+}
+
+#side-img{
+    
+    background-color: red;
+    /* background-image: url("img/mouse-kb-bg.png"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px 0 0 10px;
+}
+
+#side-img img{
+    width: 35px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+

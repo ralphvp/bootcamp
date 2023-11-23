@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISCP Employee Registration Form</title>
+</head>
+<body>
+    <h1>ISCP Employee Registration Form</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/en/c/c9/Seal_of_the_International_State_College_of_the_Philippines.png" alt="Building of ISCP Campus">
+
+    <br />
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aCUhfPAyDHY?si=-iNrpo6qcnJvHSCI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <form action="">
+        <h2>Basic Information</h2>
+        <label for="firstName">First name: </label>
+        <input type="text" id="firstName" placeholder="ex. Juan">
+        <br>
+        <label for="lastName">Last name: </label>
+        <input type="text" id="lastName" placeholder="ex. de la Cruz">
+        <br>
+        <label for="birthdate">Place of birth: </label>
+        <input type="date" name="" id="birthdate">
+        <br>
+        <label for="civilStatus">Civil status: </label>
+        <select name="civilStatus" id="civilStatus">
+            <option value="" selected disabled>Select status...</option>
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+            <option value="widowed">Widowed</option>
+            <option value="separated">Separated</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        <label for="gender">Gender: </label>
+        <br>
+        
+        <input type="radio" name="gender" id="genderMale" value="male" >
+        <label for="gender">Male </label>
+        <br>
+        <input type="radio" name="gender" id="genderFemale" value="female" >
+        <label for="gender">Female </label>
+        <br>
+        <input type="radio" name="gender" id="genderOther" value="other" >
+        <label for="gender">Other </label>
+        <br>
+
+        <label for="motherMaidenName">Mother's maiden name: </label>
+        <input type="text" name="motherMaidenName" id="motherMaidenName" placeholder="ex. Juana Maria Solis">
+        <br>
+        <label for="fatherName">Father's name: </label>
+        <input type="text" name="fatherName" id="fatherName" placeholder="ex. Juan de la Cruz">
+
+        <h2>Contact information</h2>
+        <label for="emailAddress">Email address: </label>
+        <input type="email" name="emailAddress" id="emailAddress" placeholder="ex. jdelacruz@gmail.com">
+        <br>
+        <label for="mobileNo">Mobile number: </label>
+        <input type="text" name="mobileNo" id="mobileNo" placeholder="ex. 09123456789" minlength="11" maxlength="11">
+        <br>
+        <label for="telNo">Telephone number: </label>
+        <input type="text" name="telNo" id="telNo" placeholder="ex. 8123-4567" minlength="9" maxlength="9">
+        <br>
+
+        <h2>Address</h2>
+        <label for="streetNumber">Street number: </label>
+        <input type="text" name="streetNumber" id="streetNumber" placeholder="ex. Blk. 01, Lot 23">
+        <br>
+        <label for="streetName">Street name: </label>
+        <input type="text" name="streetName" id="streetName" placeholder="ex. Omart Street">
+        <br>
+        <label for="barangay">Barangay: </label>
+        <input type="text" name="barangay" id="barangay" placeholder="ex. Brgy. 143">
+        <br>
+        <label for="city">City: </label>
+        <input type="text" name="city" id="city" placeholder="ex. Makati City">
+        <br>
+        <label for="province">Province: </label>
+        <input type="text" name="province" id="province" placeholder="ex. Metro Manila">
+        <br>
+        <label for="fullAddress">Full address: </label> 
+        <br>
+        <textarea name="fullAddress" id="fullAddress" cols="30" rows="5" placeholder="Enter your complete address here..."></textarea>
+        <br>
+
+        <h2>Government Information</h2>
+        <label for="sssId">SSS ID: </label>
+        <input type="text" name="sssId" id="sssId" placeholder="23-7485945-4" minlength="12" maxlength="12">
+        <br>
+        <label for="pagIbigId">Pag-Ibig ID: </label>
+        <input type="text" name="pagIbigId" id="pagIbigId" placeholder="1234-5678-2023" minlength="12" maxlength="12">
+        <br>
+        <label for="philHealthId">PhilHealth ID: </label>
+        <input type="text" name="philHealthId" id="philHealthId" placeholder="23-202312345-9" minlength="14" maxlength="14">
+        <br>
+
+        <label for="2by2Pic">Upload 2x2 pic: </label>
+        <input type="file" name="2by2Pic" id="2by2Pic">
+        <br>
+
+        <label for="govIdPic">Upload picture of government ID: </label>
+        <input type="file" name="govIdPic" id="govIdPic">
+        <br>
+        
+        <h2>Account Information</h2>
+        <label for="userName">Username: </label>
+        <input type="text" name="userName" id="userName" placeholder="Enter username">
+        <br>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" placeholder="Enter password">
+        <br>
+        <label for="passwordConfirm">Password: </label>
+        <input type="password" name="passwordConfirm" id="passwordConfirm" placeholder="Re-enter password">
+        <br>
+        <label for="profileImg">Upload profile image: </label>
+        <input type="file" name="profileImg" id="profileImg">
+        <br>
+
+        <h2>Have you experienced any of the following in the last 30 days?</h2>
+        <input type="checkbox" name="exp1" id="exp1" value="coughing">
+        <label for="exp1">Coughing</label>
+        <input type="checkbox" name="exp2" id="exp2" value="Fever">
+        <label for="exp1">Fever</label>
+        <input type="checkbox" name="exp3" id="exp3" value="commonCold">
+        <label for="exp1">Common Cold</label>
+        <input type="checkbox" name="exp4" id="exp4" value="bodyAche">
+        <label for="exp1">Body Ache</label>
+        <input type="checkbox" name="exp5" id="exp5" value="soreThroat">
+        <label for="exp1">Sore Throat</label>
+        <input type="checkbox" name="exp6" id="exp6" value="tiredness">
+        <label for="exp1">Tiredness</label>
+        <input type="checkbox" name="exp7" id="exp7" value="lossOfSmell">
+        <label for="exp1">Loss of Smell</label>
+        <br>
+    
+
+        <h2>Give a short description about yourself.</h2>
+        <textarea name="" id="" cols="30" rows="10" placeholder="2 or more sentences"></textarea>
+        <br><br>
+        <input type="submit" name="" id="" value="Submit">
+
+    </form> 
+
+</body>
+</html>
